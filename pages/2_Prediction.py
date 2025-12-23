@@ -31,7 +31,7 @@ PKL_PATH = 'saved_models/random_forest_model.pkl'
 def load_rf_model():
     if not os.path.exists(PKL_PATH):
         with zipfile.ZipFile(ZIP_PATH, 'r') as zip_rf:
-            zip_rf.extractall("models")
+            zip_rf.extractall('saved_models')
 
     with open(PKL_PATH, "rb") as f:
         model = pickle.load(f)
