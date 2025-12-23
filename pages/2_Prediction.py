@@ -25,7 +25,7 @@ with open('saved_data/vn_available_locations.json', 'r', encoding='utf-8') as f:
     
 province_list = list(lct_hierachy.keys()) 
 
-ZIP_PATH = 'saved_models/house_price_model.pkl.zip'
+ZIP_PATH = 'saved_models/house_price_model.zip'
 PKL_PATH = 'saved_models/house_price_model.pkl'
 
 def load_rf_model():
