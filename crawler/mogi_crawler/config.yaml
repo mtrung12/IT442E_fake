@@ -1,0 +1,18 @@
+mogiCrawler:
+  base_url: 'https://mogi.vn/can-tho/mua-nha-hem-ngo' #Đà Nẵng, Cần Thơ
+  num_pages: 21
+  start_page: 1
+  final_columns: 
+    - "Mã BĐS"
+    - "Ngày đăng"
+    - "Đường"
+    - "Phường"
+    - "Quận"
+    - "Thành phố"
+    - "Diện tích"
+    - "Chiều ngang"
+    - "Chiều dài"
+    - "Pháp lý"
+    - "Số phòng ngủ"
+    - "Số phòng vệ sinh"
+    - "Giá"
